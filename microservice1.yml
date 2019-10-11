@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: microservice1
+  
+    
+server:
+  port: 7003
+  
+  
+       
