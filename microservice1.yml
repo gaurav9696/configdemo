@@ -1,4 +1,16 @@
+spring:
+ application:
+  name: microservice1
+
+
+eureka:
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: http://localhost:7002/eureka/
+  instance:
+    hostname: localhost
+
 message:
   welcome to first microservice..!!
-  
-       
