@@ -2,10 +2,5 @@ spring:
   application:
     name: eureka-server
     
-eureka:
-  client:
-    register-with-eureka: flase
-    fetch-registry: flase
-    
   
        
