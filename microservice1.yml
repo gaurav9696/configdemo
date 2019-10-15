@@ -7,8 +7,8 @@ server:
 
 eureka:
   client:
-    register-with-eureka: true
-    fetch-registry: true
+    registerWithEureka: true
+    fetchRegistry: true
     serviceUrl:
       defaultZone: http://localhost:7002/eureka
   instance:
