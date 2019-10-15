@@ -10,7 +10,7 @@ eureka:
     register-with-eureka: true
     fetch-registry: true
     serviceUrl:
-      defaultZone: http://localhost:7002/eureka/
+      defaultZone: http://localhost:7002/eureka
   instance:
     hostname: localhost
 
